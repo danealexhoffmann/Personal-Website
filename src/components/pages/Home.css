@@ -1,0 +1,45 @@
+@import url("https://api.fontshare.com/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&f[]=clash-display@200,300,400,500,600,700,1&display=swap");
+
+.home {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 12.5rem;
+}
+
+.home-container {
+  display: inline-block;
+}
+
+.hero-text {
+  font-family: "clash display", sans-serif;
+  font-size: 13rem;
+  font-weight: 700;
+  text-align: left;
+  line-height: 12rem;
+}
+
+.hero-subtext {
+  font-family: "clash display", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 8rem;
+}
+
+@media screen and (max-width: 960px) {
+  .home {
+    top: 40%;
+  }
+
+  .hero-text {
+    font-size: 4rem;
+    line-height: 3.5rem;
+    text-align: center;
+  }
+
+  .hero-subtext {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}

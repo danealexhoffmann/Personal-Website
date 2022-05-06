@@ -1,0 +1,40 @@
+.screen {
+  position: relative;
+  width: 100%;
+  bottom: 40px;
+}
+
+.iconContainer {
+  z-index: 30;
+  display: inline-block;
+  width: 100%;
+}
+
+.icon {
+  color: #252525;
+  margin: 1rem;
+  width: 5%;
+}
+
+.icon:hover {
+  color: #ff0a54;
+  transition: 01s;
+}
+
+@media screen and (max-width: 960px) {
+  .iconContainer {
+    position: absolute;
+    z-index: 30;
+    display: inline-block;
+    height: 20%;
+    right: 0rem;
+    top: 4rem;
+  }
+
+  .icon {
+    color: #252525;
+    margin: 1rem;
+    width: 8%;
+    height: 50px;
+  }
+}

@@ -1,0 +1,49 @@
+@import url("https://api.fontshare.com/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&f[]=clash-display@200,300,400,500,600,700,1&display=swap");
+
+.contact {
+  position: absolute;
+  top: 17%;
+  background-color: #e9e4de;
+}
+
+.contact-title {
+  text-align: left;
+  font-family: "clash display", sans-serif;
+  text-transform: uppercase;
+  font-size: 6rem;
+  margin-left: 11.25rem;
+  margin-bottom: 5rem;
+}
+
+.contact-email {
+  text-align: left;
+  color: #252525;
+  font-family: "satoshi", sans-serif;
+  font-weight: 900;
+  font-size: 68pt;
+  text-decoration: none;
+  margin-left: 11.25rem;
+}
+
+.contact-email:hover {
+  color: #ff0a54;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 690px) {
+  .contact {
+    top: 30%;
+  }
+
+  .contact-title {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 3rem;
+    margin-bottom: 0rem;
+  }
+
+  .contact-email {
+    font-size: 20pt;
+    margin-left: 1rem;
+  }
+}

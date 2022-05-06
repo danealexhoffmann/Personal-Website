@@ -1,0 +1,162 @@
+@import url("https://api.fontshare.com/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&f[]=clash-display@200,300,400,500,600,700,1&display=swap");
+
+.projects {
+  position: absolute;
+  text-align: center;
+  top: 17%;
+  width: 100%;
+}
+
+.projects-titleText {
+  text-align: left;
+  font-family: "clash display", sans-serif;
+  text-transform: uppercase;
+  font-size: 6rem;
+  margin-left: 11.25rem;
+}
+
+.projects-cards {
+  width: 100%;
+}
+
+.projects-card {
+  background-color: #ff0a54;
+  display: inline-block;
+  height: 35rem;
+  width: 20%;
+  margin: 2% 5%;
+  border-radius: 20px;
+}
+
+.screenshot {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.project-name {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #e9e4de;
+  font-family: "Satoshi", sans-serif;
+  margin-top: 2.9rem;
+  margin-left: 6rem;
+}
+
+.project-description {
+  position: absolute;
+  color: #252525;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  color: #e9e4de;
+  margin-top: 6rem;
+  margin-left: 2.5rem;
+}
+
+.name-two {
+  margin-left: 7.3rem;
+}
+
+.name-three {
+  margin-left: 5.5rem;
+}
+
+.description-three {
+  margin-left: 3rem;
+}
+
+.project-buttons {
+  position: absolute;
+  margin-left: 5.5rem;
+  margin-top: 16.5rem;
+}
+
+.button {
+  position: relative;
+  width: 100%;
+  height: 25px;
+  background: #252525;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #e9e4de;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 25px;
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 690px) {
+  .projects-titleText {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .projects-card {
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+    height: 30rem;
+    width: 80%;
+  }
+
+  .project-name {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #e9e4de;
+    font-family: "Satoshi", sans-serif;
+    margin-top: 2.9rem;
+    margin-left: 3.8rem;
+  }
+
+  .project-description {
+    position: absolute;
+    color: #252525;
+    font-family: "Satoshi", sans-serif;
+    font-size: 0.8rem;
+    text-align: left;
+    color: #e9e4de;
+    margin-top: 6rem;
+    margin-left: 2.2rem;
+  }
+
+  .name-two {
+    margin-left: 5rem;
+  }
+
+  .name-three {
+    margin-left: 3.3rem;
+  }
+
+  .description-three {
+    margin-left: 2.5rem;
+  }
+
+  .project-buttons {
+    position: absolute;
+    margin-left: 3.5rem;
+    margin-top: 14rem;
+  }
+
+  .button {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background: #252525;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #e9e4de;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 0.5rem;
+  }
+}

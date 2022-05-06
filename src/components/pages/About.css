@@ -1,0 +1,116 @@
+@import url("https://api.fontshare.com/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&f[]=clash-display@200,300,400,500,600,700,1&display=swap");
+
+.about {
+  position: absolute;
+  text-align: center;
+  top: 17%;
+}
+
+.about-container {
+  display: inline-block;
+}
+
+.about-image {
+  float: left;
+  width: 50%;
+}
+
+.dane-profile {
+  height: 38.75rem;
+  margin-left: 27%;
+  margin-top: 2.7%;
+  border-radius: 20px;
+}
+
+.about-text {
+  float: right;
+  width: 50%;
+}
+
+.about-titleText {
+  text-align: left;
+  font-family: clash display, sans-serif;
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+
+.about-bodyText {
+  font-family: "satoshi", sans-serif;
+  text-align: left;
+  font-size: 2.5rem;
+  margin-right: 27%;
+}
+
+.resume-button-container {
+  position: absolute;
+  right: 50.5rem;
+}
+
+.resume-button {
+  position: absolute;
+  width: 12%;
+  height: 30px;
+  background: #252525;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #e9e4de;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 25px;
+  top: 34rem;
+  right: 44rem;
+}
+
+@media screen and (max-width: 960px) {
+  .about-image {
+    float: none;
+    width: 100%;
+  }
+
+  .dane-profile {
+    height: 20rem;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  .about-text {
+    float: none;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .about-titleText {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 3rem;
+  }
+
+  .about-bodyText {
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .resume-button-container {
+    position: absolute;
+    top: 35rem;
+    right: 7rem;
+  }
+
+  .resume-button {
+    position: absolute;
+    width: 12%;
+    height: 30px;
+    background: #252525;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #e9e4de;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 25px;
+  }
+}
