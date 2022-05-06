@@ -6,7 +6,11 @@ export const About = () => {
     <div className="about">
       <div className="about-container">
         <div className="about-image">
-          <img className="dane-profile" src="./images/dane-profile.jpg" />
+          <img
+            className="dane-profile"
+            src="./images/dane-profile.jpg"
+            alt="dane-profile"
+          />
         </div>
         <div className="about-text">
           <h2 className="about-titleText">About.</h2>

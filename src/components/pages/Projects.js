@@ -22,11 +22,17 @@ export const Projects = () => {
                 <br /> show off my portfolio.
               </p>
               <div className="project-buttons">
-                <a class="button" href="">
+                <a
+                  class="button"
+                  href="https://github.com/danealexhoffmann/Personal-Website"
+                >
                   Live Demo
                 </a>
 
-                <a class="button" href="">
+                <a
+                  class="button"
+                  href="https://github.com/danealexhoffmann/Personal-Website"
+                >
                   GitHub
                 </a>
               </div>

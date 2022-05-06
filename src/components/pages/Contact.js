@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import SocialLinks from "../SocialLinks";
 
 export const Contact = () => {
   return (
