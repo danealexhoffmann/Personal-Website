@@ -22,10 +22,7 @@ export const Projects = () => {
                 <br /> show off my portfolio.
               </p>
               <div className="project-buttons">
-                <a
-                  class="button"
-                  href="https://github.com/danealexhoffmann/Personal-Website"
-                >
+                <a class="button" href="https://danealexhoffmann.netlify.app/">
                   Live Demo
                 </a>
 
