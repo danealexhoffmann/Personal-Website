@@ -20,7 +20,7 @@ export const About = () => {
             <a
               className="resume-button"
               class="button"
-              href="https://github.com/danealexhoffmann/Crypto-Dashboard"
+              href="https://drive.google.com/file/d/1ySQx-zn0rr7fnfA_87SNfO4G6cyaxhXO/view?usp=sharing"
             >
               See My Resume!
             </a>
